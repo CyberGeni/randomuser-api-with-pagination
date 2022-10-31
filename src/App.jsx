@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Users from './components/Users';
 import PageNotAvailable from './pages/PageNotAvailable';
 
 function App () {
@@ -11,6 +12,11 @@ function App () {
           path='/'
           element={<Home />}
         />
+        <Route 
+          path='/users'
+          element={<Users />}
+        />
+        {/* catch unregistered routes and display a 404 page component */}
         <Route 
           path='*'
           element={<PageNotAvailable />}

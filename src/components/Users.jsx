@@ -1,7 +1,7 @@
-import React from 'react';
+function Users() {
+    return ( 
+        <div>users go here</div>
+     );
+}
 
-  return (
-
-  );
-};
 export default Users;
