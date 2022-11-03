@@ -1,6 +1,6 @@
 # randomuser-api-with-pagination
 
-My AltSchool assesment 2 submission.
+My AltSchool Africa assesment 2 submission.
 
 I noticed that Netlify has a custom 404 page, so the one I implemented doesn't seem to work when accessed there. When you clone and run on your local development server though, everything should work fine. 
 
